@@ -9,7 +9,7 @@ CreateThread(function()
         SetDiscordRichPresenceAssetSmall(conf.IconSmall)
         SetDiscordRichPresenceAssetSmallText(conf.IconSmallHoverText)
         local playerPed = PlayerPedId()
-		    local coords = GetEntityCoords(playerPed, true)
+	local coords = GetEntityCoords(playerPed, true)
         local streetnamehash = GetStreetNameAtCoord(coords.x, coords.y, coords.z)
         local location = GetStreetNameFromHashKey(streetnamehash)
         if conf.ShowPlayerCount then
