@@ -13,7 +13,7 @@ CreateThread(function()
         local streetnamehash = GetStreetNameAtCoord(coords.x, coords.y, coords.z)
         local location = GetStreetNameFromHashKey(streetnamehash)
         if conf.ShowPlayerCount then
-            ESX.TriggerServerCallback('SY_Rpc:server:GetcurrentPlayers', function(result)
+            ESX.TriggerServerCallback('Fivem_RPC:server:GetcurrentPlayers', function(result)
                 SetRichPresence('Wlaking on the '..location..'\nPlayers: ' .. result .. '/' .. conf.MaxPlayers)
             end)
         end
