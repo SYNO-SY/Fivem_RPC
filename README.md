@@ -3,7 +3,7 @@ Rich Presence For ESX Framework (original script from qb-smallresources)
 
 
 ## Dependencies
-- [esx_core](https://github.com/esx-framework/esx_core)
+- [es_extended](https://github.com/esx-framework/esx_core/tree/main/%5Bcore%5D/es_extended)
 
 # License
 
